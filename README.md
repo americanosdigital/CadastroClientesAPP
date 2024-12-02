@@ -45,7 +45,7 @@ Este é um projeto de **Cadastro de Clientes** que expõe uma API RESTful constr
     ```json
     {
       "ConnectionStrings": {
-        "DefaultConnection": "Server=localhost;Database=CadastroClientesDB;Trusted_Connection=True;TrustServerCertificate=True;"
+        "DefaultConnection": "Server=seulocalhost;Database=CadastroClientesDB;Trusted_Connection=True;TrustServerCertificate=True;"
       }
     }
     ```
@@ -61,7 +61,7 @@ Este é um projeto de **Cadastro de Clientes** que expõe uma API RESTful constr
     dotnet run
     ```
 
-7. A API estará disponível em `https://localhost:5001` (ou o endereço configurado).
+7. A API estará disponível em `https://localhost:7023` (ou o endereço configurado).
 
 ### Testando a API
 
